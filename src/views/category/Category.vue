@@ -92,6 +92,11 @@ onMounted(async () => {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+
+  :deep(.searchbar-container) {
+    border-bottom: 1px solid #f1f1f1;
+  }
 
   .category-main {
     flex: 1;
