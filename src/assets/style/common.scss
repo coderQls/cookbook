@@ -1,0 +1,10 @@
+html, body, #app {
+  height: 100%;
+  overflow: hidden;
+}
+
+html, body, div, ul, ol, main, section {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
