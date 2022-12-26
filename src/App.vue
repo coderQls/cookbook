@@ -54,11 +54,6 @@ onMounted(async () => {
 
 <template>
   <div class="main-container">
-    <van-nav-bar
-      v-if="isTab"
-      :title="navbarTitle"
-      safe-area-inset-top
-    ></van-nav-bar>
     <main>
       <router-view></router-view>
     </main>
@@ -87,11 +82,6 @@ onMounted(async () => {
 </template>
 
 <style scoped lang="scss">
-:global(:root) {
-  --van-nav-bar-background-color: #ff5600;
-  --van-nav-bar-title-text-color: #fff
-}
-
 .main-container {
   height: 100%;
   display: flex;

@@ -8,3 +8,8 @@ html, body, div, ul, ol, main, section {
     display: none;
   }
 }
+
+:root {
+  --van-nav-bar-background-color: #ff5600 !important;
+  --van-nav-bar-title-text-color: #fff !important;
+}
